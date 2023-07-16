@@ -1,0 +1,165 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial;
+}
+.logo{
+    display: block;
+    margin-right: 610px;
+    margin-left: auto;
+   
+}
+
+.header1{
+	padding:15px 10px;
+	width:0px auto;
+	height:10px;
+	background-color:black;
+}
+.container{
+    background-color:white;
+}
+.cart-icn{
+    float: right;
+    margin-top: 85px;
+    margin-right: 100px;
+    color: #000000;
+
+}
+.signin-icn{
+    font-size: 20px;
+    float: right;
+    margin-top: 85px;
+    margin-right: 80px;
+    text-decoration: none;
+    color: #000000;
+}
+.cart-icn:hover{
+    color: #b5b5b5;
+}
+.signin-icn:hover {
+    color: #b5b5b5;
+}
+
+
+/*-----navigation-bar----*/
+
+nav{
+    overflow: hidden;
+    background: #c46065;
+    line-height: 18px;
+}
+
+nav a{
+    float: left;
+    display:block;
+    width:100px;
+    text-align: center;
+    padding: 18px 20px;
+    text-align: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    background: rgb(237, 190, 196);
+    color: rgb(8, 8, 8);
+}
+
+nav .active{
+    background: #ba575c;
+
+}
+
+
+.cart-btn:hover{
+    background:  rgb(237, 190, 196);
+    color: black;
+}
+
+
+/*----users details---*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+
+    
+}
+
+th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-weight: bold;
+    background-color: #b5b5b5;
+}
+
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px; 
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+
+/*------footer------*/
+
+.footer-container{
+    margin-top: auto;
+    background-color: #212329;
+    padding: 2rem 0 0.5rem 0;   
+
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #212329;
+    color: white;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+.footer-heading{
+    display:flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.footer-heading h3{
+    margin-bottom: 2rem;
+}
+.footer-heading a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover{
+    color: rgb(237, 190, 196);
+}
+
+.app-logo img{
+    width:140px;
+}
+.footer-hr{
+    background: #b5b5b5;
+}
+.copyright{
+    text-align: center;
+    color: #b5b5b5;
+}
